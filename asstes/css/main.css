@@ -11,10 +11,14 @@ body {
 
 
 /* Pages listing */
+.listing-product {
+  margin-top: 50px;
+}
 .listing-product .item {
   position: relative;
   /* max-height: 500px; */
   overflow: hidden;
+  margin-bottom: 25px;
 }
 .listing-product .item .box-image img {
   object-fit: cover;
@@ -49,6 +53,7 @@ body {
   transition: transform .3s;
   transform: translateY(101%);
   bottom: 0;
+  padding: 40px 20px 30px 20px;
 }
 .listing-product .item:hover .box-description {
   /* bottom: 0; */
@@ -62,4 +67,6 @@ body {
 .box-description p {
   font-size: 16px;
   line-height: 1.6;
+  max-height: 150px;
+  overflow-y: auto;
 }
