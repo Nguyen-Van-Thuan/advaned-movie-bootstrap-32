@@ -17,10 +17,45 @@
 
 <body>
 
+  <!-- Header./Start -->
+  <div class="header-main">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-sm-2 col-md-2">
+          <div class="logo">
+            <img src="./asstes/images/logo1.png" />
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-10 col-md-10">
+          <!-- Menu-desktop -->
+          <ul class="menu-main">
+            <li>Trang chu</li>
+            <li>Phim dang chieu</li>
+            <li>Lich chieu</li>
+            <li>Phim hoan thanh</li>
+            <li>Phim sap hoan thanh</li>
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
   <div class="wrap-form">
-    <form class="form">
-      <input type="text" class="input-form" placeholder="Search"/>
-    </form>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12">
+
+          <form class="form">
+            <input type="text" class="input-form" placeholder="Search" />
+          </form>
+
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="listing-product">
@@ -39,6 +74,19 @@
     </button>
   </div>
 
+
+  <!-- Menu Tablet + Mobile -->
+
+  <div id="wrap-mobile">
+    <button class="btn-close">X</button>
+    <ul class="menu-mobile">
+      <li>Trang chu</li>
+      <li>Phim dang chieu</li>
+      <li>Lich chieu</li>
+      <li>Phim hoan thanh</li>
+      <li>Phim sap hoan thanh</li>
+    </ul>
+  </div>
 
   <!-- Import axios -->
   <script src="./lib/axios.min.js"></script>
