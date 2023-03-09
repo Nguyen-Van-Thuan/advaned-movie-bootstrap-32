@@ -106,3 +106,19 @@ preMore.addEventListener('click', function(){
     console.log(currentPage);
   }
 })
+
+
+// *******Menu Mobile********* //
+/*--- b1: Truy cap phan tu --- */
+const btnOpen = document.querySelector('.btn-mobile-open');
+const ctnMobile = document.querySelector('#wrap-mobile');
+const btnClose = document.querySelector('.btn-close');
+
+/*-- B2: Them event ----*/ 
+btnOpen.addEventListener('click', function(){
+  ctnMobile.style.height = '100%';
+})
+
+btnClose.addEventListener('click', function(){
+  ctnMobile.style.height = '0';
+})
