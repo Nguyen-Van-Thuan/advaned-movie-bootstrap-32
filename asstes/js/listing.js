@@ -19,7 +19,7 @@ function showListing(data){
     data.forEach(function(value){
         htmlCode += `
         <div class="col-12 col-sm-6 col-md-3">
-            <a href="#">
+            <a href="/detail.html?id=${value.id}">
                 <img src="${URL + value.image}" />
             </a>
         </div>
